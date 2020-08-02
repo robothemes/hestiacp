@@ -902,4 +902,11 @@ $LANG['cn'] = array(
     'Documentation' => 'Documentation',
     'Support' => 'Support',
     'Submit an issue report' => 'Submit an issue report',
+    'backend server' =>  'Backend Server',
+    'traffic' => 'Traffic',
+    'disk' => 'Disk',
+
+    'SYSTEM_UPGRADE_SEND_NOTIFICATION_EMAIL' => '安装更新后发送电子邮件通知',
+    'SYSTEM_UPGRADE_SAVE_LOG' => '保存更新安装日志',
+    'SYSTEM_UPGRADE_SEND_EMAIL_LOG' => '通过电子邮件发送更新安装日志',
 );

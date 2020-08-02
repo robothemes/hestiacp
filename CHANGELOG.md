@@ -3,6 +3,15 @@ All notable changes to this project will be documented in this file.
 
 ## [CURRENT] - Development
 ### Features
+- The software update procedure will now perform a system health check prior to installation and repair missing environment variables.
+- Installs from branches/versions other than those from `release` will provide verbose output and logging to aid in debugging and development.
+- Administrators now have control over software update notifications through the following settings in `$HESTIA/conf/hestia.conf`:
+    - `UPGRADE_SEND_EMAIL` = Sends an email notification to admin email address
+    - `UPGRADE_SEND_EMAIL_LOG` = Sends installation log output to admin email address
+
+### Bugfixes
+- Fixed an issue where template files were not correctly backed up during upgrades.
+- Improved version detection during upgrades.
 
 ### Bugfixes
 - Create mailhelo.conf if it doesnt exist to prevent a error message during grep.
@@ -16,7 +25,7 @@ All notable changes to this project will be documented in this file.
 - Fixed an error that would occur when running `v-change-user-php-cli` for the first time if .bash_aliases did not exist. (#960)
 - Corrected an issue where tooltips were not displayed when hovering over the top level menu items.
  
-## [1.2.1] - Service Release 1
+## [1.2.1] - Service Release
 ### Features
 - Consolidated First and Last Name fields to a singular name field to simply input.
     - v-change-user-name will now accept both "First Last" (single argument) and First Last (two arguments) for backward compatibility.

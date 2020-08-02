@@ -886,5 +886,9 @@ $LANG['bg'] = array(
     'Documentation' => 'Documentation',
     'Support' => 'Support',
     'Submit an issue report' => 'Submit an issue report',
+
+    'SYSTEM_UPGRADE_SEND_NOTIFICATION_EMAIL' => 'Известие по имейл, когато е инсталирана актуализация',
+    'SYSTEM_UPGRADE_SAVE_LOG' => 'Запазете дневниците за актуализация',
+    'SYSTEM_UPGRADE_SEND_EMAIL_LOG' => 'Изпратете дневника за инсталиране на актуализацията по имейл',
 );
 
